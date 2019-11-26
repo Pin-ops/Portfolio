@@ -1,0 +1,253 @@
+/* #HOME */
+
+.centered {
+    color: #76401D;
+    font-size: 165px;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.navbar {
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 25%;
+    position: fixed;
+    /* always on top */
+    right: 8px;
+    border-left-width: 10px;
+    left: 8px;
+    top: 0;
+    width: 100%;
+    background: #EDD5C9;
+}
+
+.navbar div {
+    float: right;
+}
+
+.navbar a {
+    font-size: 25px;
+    font: bold;
+    display: block;
+    color: #76401D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    text-transform: capitalize;
+}
+
+.navbar a:hover {
+    background: #C5A281;
+    color: black;
+    font-weight: bolder;
+}
+
+#home,
+#skills,
+#about,
+#project {
+    padding-top: 40px;
+}
+
+
+/* SKILLS */
+
+#skillHead {
+    margin: 30px;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Saira Stencil One', cursive;
+    color: rgba(234, 212, 199, 0.822);
+    text-shadow: 2px 2px #76401D;
+}
+
+table {
+    color: #76401D;
+    height: 400px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+th {
+    font-size: 25px;
+    text-align: center;
+    padding: 2rem;
+    clip-path: polygon( 0% 20px, /* top left */
+    0px 0%, /* top left */
+    calc(100% - 20px) 0%, /* top right */
+    100% 0px, /* top right */
+    100% calc(100% - 50px), /* bottom right */
+    calc(100% - 50px) 100%, /* bottom right */
+    50px 100%, /* bottom left */
+    0 calc(100% - 50px)/* bottom left */
+    );
+}
+
+#head1 {
+    background: linear-gradient(rgba(234, 212, 199, 0.822), rgba(187, 169, 158, 0.822));
+}
+
+#head2 {
+    background: linear-gradient(rgb(245, 215, 187), rgb(206, 170, 136));
+}
+
+#head3 {
+    background: linear-gradient(rgb(243, 216, 190), rgb(240, 176, 116));
+}
+
+td {
+    font-size: 25px;
+    font-weight: 700;
+    border-left: transparent;
+    border-right: 1px solid #ECD5CB;
+    border-bottom: 1px solid #ECD5CB;
+}
+
+.noBorder {
+    border-bottom: transparent;
+}
+
+.purpleStar {
+    text-align: center;
+    color: #C9BAB1
+}
+
+.pinkStar {
+    text-align: center;
+    color: #CFAC8A
+}
+
+.orangeStar {
+    text-align: center;
+    color: #F0B176;
+}
+
+
+/* About Me */
+
+.bgimg {
+    margin-top: 40px;
+    background-image: url("c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#aboutHead {
+    padding-top: 40px;
+    text-align: center;
+    color: #76401D;
+    font-size: 80px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#aboutDiv {
+    margin-top: 40px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    text-align: left;
+    color: #76401D;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 194, 194, 0.322)), to(rgba(118, 65, 29, 0.849)));
+    background-size: contain;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.aboutHead p {
+    padding: 30px;
+}
+
+
+/* Projects */
+
+#project {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    color: #76401D;
+}
+
+#projectHead {
+    margin: 30px;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Saira Stencil One', cursive;
+    color: rgba(234, 212, 199, 0.822);
+    text-shadow: 2px 2px #76401D;
+}
+
+.flex-container div {
+    border: 5px solid;
+    border-radius: 30px 30px;
+    float: left;
+}
+
+.flex-container img {
+    margin-top: 0;
+    width: 100%;
+    height: 40%;
+}
+
+#github {
+    border-color: rgba(187, 169, 158, 0.822);
+    margin-right: 100px;
+}
+
+#github p {
+    background: rgba(187, 169, 158, 0.822);
+}
+
+#html {
+    border-color: rgb(206, 170, 136);
+    margin-right: 100px;
+}
+
+#html p {
+    background: rgb(206, 170, 136);
+}
+
+#css {
+    border-color: rgb(240, 176, 116);
+}
+
+#css p {
+    background: rgb(240, 176, 116);
+}
+
+.text {
+    padding-top: 20px;
+    text-align: left;
+    margin: 0;
+    font-size: 1.5vw;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.flex-container p {
+    margin-top: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 12%;
+    border-radius: 0 0 25px 25px;
+}
